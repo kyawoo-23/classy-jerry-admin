@@ -1,0 +1,30 @@
+.nav-tabs .nav-item {
+  width: 50%;
+}
+
+.nav-tabs {
+  border-bottom: none !important;
+}
+
+.nav-tabs .nav-link {
+  transition: none;
+}
+
+.nav-tabs .nav-item button {
+  width: 100%;
+  border: none;
+  border-radius: 0px;
+  color: #c4c4c4;
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.nav-tabs .nav-item button:hover {
+  color: #FFB037;
+}
+
+.nav-tabs .nav-item button.active {
+  background: none;
+  border-bottom: 2px solid #FFB037;
+  color: #FFB037;
+}

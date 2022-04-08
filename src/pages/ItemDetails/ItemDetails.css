@@ -1,0 +1,97 @@
+.item-name {
+  display: flex;
+}
+
+.item-color-gp, .item-size-gp {
+  width: 100%;
+}
+
+/* .carousel-indicators {
+  display: none !important;
+} */
+
+@media only screen and (min-width: 992px) {
+  .carousel-control-prev, .carousel-control-next {
+    height: 100% !important;
+  }
+}
+
+.carousel-control-prev, .carousel-control-next {
+  height: 80%;
+}
+
+.item-qty-gp {
+  display: flex;
+  align-items: center;
+}
+
+.item-qty {
+  width: 4rem !important;
+}
+
+.item-qty:focus, .item-qty:active {
+  border-color: #FFB037 !important;
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075) inset, 0 0 8px #f09000 !important;
+}
+
+input[type=number]::-webkit-inner-spin-button, 
+input[type=number]::-webkit-outer-spin-button {  
+   opacity: 1;
+   cursor: pointer;
+}
+
+.wish-btn {
+  border-radius: 10px;
+  background-color: transparent;
+  border: 2px solid hotpink;
+  outline: none;
+  font-size: 22px;
+  font-weight: 400;
+  width: 100%;
+  height: 3rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: hotpink;
+  opacity: 0.8;
+}
+
+.wish-btn:hover {
+  background-color: hotpink;
+  color: #000;
+  opacity: 1;
+}
+
+.wish-btn.wishListed {
+  background-color: hotpink;
+  color: #000;
+  opacity: 1;
+}
+
+.submit-btn {
+  border-radius: 10px;
+  background-color: transparent;
+  border: 2px solid #FFB037;
+  outline: none;
+  font-size: 22px;
+  font-weight: 400;
+  width: 100%;
+  height: 3rem;
+  color: #FFB037;
+  opacity: 0.8;
+}
+
+.submit-btn:hover {
+  background-color: #FFB037;
+  color: #000;
+  opacity: 1;
+}
+
+@media only screen and (min-width: 992px) {
+  .submit-btn-gp {
+    justify-content: start;
+  }
+  .submit-btn {
+    width: 280px !important;
+  }
+}

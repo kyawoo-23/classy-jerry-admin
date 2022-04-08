@@ -1,0 +1,80 @@
+.order-card {
+  background-color: #36342F;
+}
+
+.order-date {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #f2f2f2;
+  height: 74px;
+  width: 74px;
+  margin: 5px;
+  background-color: #6b675d;
+}
+
+.order-details {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.order-details-left {
+  max-height: 74px;
+  overflow: hidden;
+  margin-left: 5px;
+}
+
+.order-id {
+  width: 180px;
+  margin-right: 5px;
+  white-space: nowrap; 
+  overflow-y: auto;
+  cursor: grab;
+  -ms-overflow-style: none;  /* Internet Explorer 10+ */
+  scrollbar-width: none;  /* Firefox */
+  /* text-overflow: ellipsis;  */
+}
+
+.order-id::-webkit-scrollbar {
+  width: 0;
+  height: 0;
+}
+
+@media only screen and (min-width: 768px) {
+  .order-id {
+    width: 380px;
+  }
+}
+@media only screen and (min-width: 992px) {
+  .order-id {
+    width: 380px;
+  }
+}
+
+.order-details-left p {
+  margin-bottom: 0;
+  color: #f2f2f2;
+  font-size: 17px;
+}
+
+.order-details-right {
+  margin-right: 10px;
+  color: #f2f2f2;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-end;
+}
+
+.truck-icon {
+  height: 20px;
+  width: 20px;
+  filter: invert(90%) sepia(0%) saturate(0%) hue-rotate(165deg) brightness(89%) contrast(90%);
+}
+
+.order-status {
+  color: #f2f2f2;
+  margin-left: 5px;
+  padding-bottom: 3px;
+}

@@ -1,0 +1,33 @@
+.card {
+  cursor: pointer;
+}
+
+.card-img-top {
+  max-height: 330px;
+}
+
+.card-icon {
+  width: 28px;
+  height: 28px;
+  display: flex;
+  justify-content: center;
+}
+
+.heart-null:hover {
+  filter: invert(80%) sepia(45%) saturate(5470%) hue-rotate(312deg) brightness(95%) contrast(118%);
+}
+
+.heart:hover {
+  filter: invert(37%) sepia(1%) saturate(0%) hue-rotate(349deg) brightness(93%) contrast(96%);
+}
+
+.card-body {
+  background-color: #F8F5F1;
+}
+
+.card-text {
+  font-weight: 500;
+  vertical-align: middle;
+  line-height: 20px;
+}
+
