@@ -94,8 +94,11 @@ export default function ItemDetails() {
   }
 
   const addItemImg = () => {
-    setIsItemImgAdding(true)
+    if (itemImg === undefined) {
+      alert("Please input an Image")
+    }
     if (itemImg !== undefined) {
+      setIsItemImgAdding(true)
       let imgId = Math.random()
       const storageRef = ref(storage, `itemImages/${id}/${imgId}`)
       const uploadTask = uploadBytesResumable(storageRef, itemImg)
